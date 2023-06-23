@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct UserFirst {
-    static let userName = "User"
-    static let userPassword = "123321"
+struct User {
+    var userName = "User"
+    var userPassword = "123321"
 }
+
