@@ -21,7 +21,7 @@ class LoginViewController: UIViewController {
         
         guard let welcomeVC =
                 segue.destination as? WelcomeViewController else { return }
-        welcomeVC.userName = textFieldUserLogin.text ?? ""
+        welcomeVC.userName = User().realName
         return
     }
     
