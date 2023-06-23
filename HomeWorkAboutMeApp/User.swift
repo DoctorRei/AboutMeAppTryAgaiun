@@ -8,7 +8,8 @@
 import Foundation
 
 struct User {
-    var userName = "User"
+    var userName = "DoctorRei"
     var userPassword = "123321"
+    var realName  = "Mihail Kutuzov"
 }
 
